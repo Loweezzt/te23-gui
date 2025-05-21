@@ -1,7 +1,7 @@
 import tkinter as tk
 
 root = tk.Tk()
-
+<link rel="stylesheet" href="style.css">
 root.geometry("500x500")
 root.title("My First GUI")
 
@@ -44,11 +44,6 @@ btn9 = tk.Button(buttonframe, text="9", font=("Arial", 18))
 btn9.grid(row=2, column=2, sticky=tk.W+tk.E)
 
 buttonframe.pack(fill="x")
-
-
-
-
-
 
 root.mainloop()
 
